@@ -176,7 +176,7 @@ const Options: NextPage = ({particles}: any) => {
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover, maximum-scale=6'/>
-        <title>Ludicrous - Settings</title>
+        <title>Lucid - Settings</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
