@@ -203,7 +203,7 @@ const Home: NextPage = ({ particles }: any) => {
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover, maximum-scale=6'/>
-        <title>Ludicrous</title>
+        <title>Lucid Dreams</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -219,7 +219,7 @@ const Home: NextPage = ({ particles }: any) => {
           <div className={styles["main-page-about-init"]} id="ab-cloak" onClick={Settings}><IoSettingsOutline /></div>
 
           <div id={styles["main-page-init"]}>
-            <h1 className={styles["main-title"]}><span>Ludicrous</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/TitaniumNetwork-Dev/Ludicrous');}} /></h1>
+            <h1 className={styles["main-title"]}><span>Lucid</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/InverseGlobal');}} /></h1>
             <h2 className={styles["main-desc"]}>Surf the Unblo​cked Web</h2>
             <form method="GET" id={styles.form} action="/route">
               <input name="query" id={styles["main-input"]} onKeyDown={(event: any) => event.key == "Enter" ? (event.target as any)?.parentNode!.requestSubmit() : null} placeholder="Enter URL or Search Query" autoComplete="off" />
